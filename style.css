@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #222831;
+  color: #ffd369;
+}
+
+.color_white {
+  color: #eeeeee;
+}
+
+.pnm {
+  margin: 0 30px;
+  padding-top: 1em;
+}
+
+/* Nav menu for the three pages*/
+
+.tabs {
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  margin: 0 30px;
+  font-size: 2em;
+  display: flex;
+}
+
+header {
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222831;
+  transition: background-color 0.3s ease;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+}
+
+nav a:hover {
+  color: #ffd369;
+  background-color: #222831;
+  cursor: pointer;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+#BelizeCuisine {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 5.5em;
+}
+
+/* Add a empty space between Belize Cuisine*/
+#BelizeCuisine span {
+  margin-left: 10px;
+}
+#Belize {
+  color: #eeeeee;
+}
+
+/*First container*/
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #eeeeee;
+}
+
+/* Align the image on the left
+   margin-right 0 will put it on the right
+*/
+#riceandbeans {
+  padding-top: 5em;
+  display: block;
+  margin-right: 30px;
+  margin-left: 0;
+  padding-left: 2em;
+  border-radius: 100%;
+}
+
+.favoritedish {
+  margin: 0;
+  padding-right: 5em;
+  font-size: 2em;
+}
+
+.favoritedishp {
+  font-size: 1.5em;
+  padding-top: 1.5em;
+}
+
+#favoritedish_container {
+  margin-right: 4em;
+}
+
+/* Recipe container */
+.recipe_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#recipe {
+  font-size: 2em;
+  padding-top: 3em;
+  margin-left: 30px;
+}
+
+#recipep {
+  padding-top: 1em;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+#recipep2 {
+  padding-top: 1em;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+.ingredients {
+  margin-left: 30px;
+}
+
+.ingredients ul li {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+#recipe_image {
+  padding-top: 100px;
+  margin: 0px 30px;
+  border-radius: 40%;
+}
+
+.cooking_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+.cooking_nav {
+  font-size: 1.5em;
+}
+
+.cooking_nav ol li {
+  padding-top: 1.5em;
+  margin: 0 30px;
+}
+
+.cooking_nav1 {
+  margin-left: 30px;
+}
+
+.cooking_h1 {
+  margin-left: 30px;
+  font-size: 2em;
+}
+
+.cooking_riceandbeans {
+  padding-top: 4em;
+  margin-left: 30px;
+  border-radius: 45%;
+}
+
+.History_h1 {
+  color: #eeeeee;
+  font-size: 2em;
+}
+
+.History_RiceandBeans {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Historyp {
+  font-size: 1.5em;
+}
+
+.riceandbean_video {
+  padding-top: 100px;
+}
+
+.choose_the_rice {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.choose_the_rice_div {
+  padding-top: 2em;
+}
+
+.choose_the_rice_h1 {
+  font-size: 2em;
+}
+.choose_the_rice_p {
+  font-size: 1.5em;
+}
+
+.Audio1 {
+  margin-bottom: 20px;
+}
+
+audio.Audio1::-webkit-media-controls-panel,
+audio.Audio2::-webkit-media-controls-panel {
+  background-color: #b9b4c7;
+}
+
+.audioHeader1,
+.audioHeader2 {
+  color: #eeeeee;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.summaryp {
+  font-size: 2em;
+  margin: 0px 50px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.footer p {
+  color: #222831;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_honesty,
+.footer_about {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.honestyp1 {
+  font-size: 2em;
+}
+
+.referencesh1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.references {
+  font-size: 1.5em;
+  padding: 20px;
+}
+.references li {
+  padding: 20px;
+}
+
+#references {
+  display: flex;
+  justify-content: center;
+}
+
+#topButton{
+    /* display: none; */
+
+    /* Set the button position */
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    padding: 20px 50px;
+    border-radius: 100px;
+    border-color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #ffd369;
+}
+
+button{
+  font-size: 2em;
+  color: #222831;
+}
+
+#topButton:hover
+{   
+    background-color: #b9b4c7;
+    color: #eeeeee;
+}
